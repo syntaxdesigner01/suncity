@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import CurrentWeather from "./Components/current-weather/CurrentWeather";
 import Search from "./Components/search/Search";
 import { WEATHER_API_KEY, WEATHER_API_URL } from "./api";
