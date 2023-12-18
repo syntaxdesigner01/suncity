@@ -1,0 +1,10 @@
+
+.search-box{
+    /* border-radius: 20px; */
+    /* padding: 20px ; */
+    box-shadow: 1px 1px 10px 2px rgb(0 0 0 / 20%);
+    /* height: 40px; */
+
+    /* position: absolute; */
+    margin-top: 40px;
+}

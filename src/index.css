@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    margin: 0;
+    font-family: 'Roboto',Arial;
+    -webkit-font-smoothing:antialiased ;
+    -moz-osx-font-smoothing:grayscale;
+    /* background: #d5d4d4; */
+    background-image: url('../public/icons/bg.jpg');
+}
+
+.container{
+    max-width: 1080px;
+    margin: 20px auto;
+  }
+
+  @media screen and (max-width: 600px)  {
+    .container{
+        margin: 10px 10px 0 10px;
+    }
+}
